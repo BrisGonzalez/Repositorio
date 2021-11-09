@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ventas de Paquetes de Software</title>
+    <style>
+        table{
+            border: coral solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Venta de Paquetes de Software</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cantidad</th>
+                    <th>Descuento</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>10-19</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <td>20-49</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>50-99</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>100 o más</td>
+                        <td>50%</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+        <form action="method="post>
+            <p>
+                <label>
+                ¿Cuántos paquetes de software llevará?
+                <input type="number" id="numero">
+                </label>
+            </p>
+            <p>
+                <input type="submit" value="Calcular venta" id="btn_ver_descuento">
+            </p>
+        </form>
+    </div>
+    <div id="salida">Salida</div>
+    <script src="js/ventas_software.js"></script>
+</body>
+</html>
